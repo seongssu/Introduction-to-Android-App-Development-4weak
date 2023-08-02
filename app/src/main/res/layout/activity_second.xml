@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/first"
+        android:text="두번째 액티비티 입니다" />
+
+    <Button
+        android:id="@+id/btnSecondActivity"
+        style="@style/first"
+        android:text="닫기"
+        android:layout_marginTop="43dp"
+        android:textColor="@color/white"/>
+</LinearLayout>
